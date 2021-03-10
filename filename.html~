@@ -10,15 +10,11 @@
     <body>
         <div class="box-area">
             <header>
-<<<<<<< HEAD
                 <div id="wrapper">
                     <div>
-                        <img id="logo-img" src="images/logo.png">
-=======
-                <div class="wrapper">
-                    <div class="logo">
-                        <img src="images/logo.png">
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
+                        <a href="#" id="logo-link">
+                            <img id="logo-img" src="images/logo.png">
+                        </a>
                     </div>
                     <nav>
                         <ul>
@@ -32,49 +28,34 @@
                     </nav>
                 </div>
              </header>
-<<<<<<< HEAD
-             
              <div>
-                <section class="main-sec">
-=======
-
-             <div>
-                <section class="img-sec">
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
-                    <img id="portfolio-pic" src="images/image-1.png" alt="Wilkerson Hardin Picture" width="100%" height="480px">
+                <section class="main-sec clear">
+                    <img id="portfolio-pic" src="images/image-1.png" alt="Wilkerson Hardin Picture" width="100%">
                 </section>
                 <aside class="side-sec">
                     <div class="info-area">
                         <h3 class="main-labels">Welcome! I'M</h3>
                         <h1 id="text-name">Wilkerson Hardin</h1>
                         <h3 id="position-text">Web Developer & UX Designer</h3>
-                        <br>
                         <p class="desc-text">Lorem ipsum dolor sit amet,Stet clita kasd gubergren, no sea takimata sanctus est is thelorem ipsum dolor sit amet. sed diam nonumy eirmod tempor invidunt ut labore et dolore is the magna aliquyam.</p>
-                        <br>
-                        <button class="hire-me-button">Hire me!</button>                                                   
-                        <button class="explore-button">Explore</button>
+                        <div id="buttons-area">
+                            <button class="hire-me-button">Hire me!</button>                                                   
+                            <button class="explore-button">Explore</button>
+                        </div>
                     </div>
                 </aside>
              </div>
-<<<<<<< HEAD
-             
-             
-             <div>
-                <section class="main-sec">
-=======
 
-
-             <div>
-                <section class="img-sec">
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
-                    <div class="circle circle-border-color">
+             <div id="section2" class="clear">
+                <section id="circle-container">
+                    <div class="circle">
                         <div class="circle-value">50% <div class="circle-font">WEB DESIGN</div></div>
                     </div>
                     <div class="circle">
                         <div class="circle-value">75% <div class="circle-font">DEVELOPMENT</div></div>
                     </div>
                     <div class="circle">
-                        <div class="circle-value">20% <div class="circle-font">WEB DESIGN</div></div> <br>
+                        <div class="circle-value">20% <div class="circle-font">WEB DESIGN</div></div>
                     </div>
                     <div class="circle">
                         <div class="circle-value">50% <div class="circle-font">WEB DESIGN</div></div>
@@ -89,108 +70,59 @@
                             </div>
                             <div>
                                 <input type="tel" name="phone" placeholder="Phone#">
-<<<<<<< HEAD
                             </div>
                             <div>
-                                <textarea rows="8" cols="56" name="message" placeholder="Message"></textarea>
+                                <textarea id="text-area-style" rows="8" cols="56" name="message" placeholder="Message"></textarea>
                             </div>
-=======
-                            </div>
-                            <div>
-                                <textarea rows="8" cols="56" name="message" placeholder="Message"></textarea>
-                            </div>
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
                             <button class="hire-me-button button-size">Send Message</button>
                         </div>
                     </fieldset>
                 </aside>
              </div>
 
-             <div class="clear divider">  
-                <hr color="#00C878">   
-             </div>
-<<<<<<< HEAD
-             
-             <div>    
-                <section>
-                    <div id="section3">
-                        <h3 class="main-labels main-labels-padding" align="center">MY SERVICES</h3>
-                        <h3 class="points-labels">My Provided Features</h3>
-                        
-=======
+   
 
              <div>    
                 <section>
-                    <div id="section3-head">
-                        <h3 class="main-labels main-labels-padding" align="center">MY SERVICES</h3>
-                        <h3 class="points-labels">My Provided Features</h3>
-
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
+                    <div>
+                        <h3 class="main-labels main-labels-padding">MY SERVICES</h3>
+                        <div class="points-labels center-text">My Provided Features</div>
                         <div id="cards">
                             <div class="card" id="card1">
-                                <div class="small-circle green-border-circle">
+                                <div class="small-circle">
                                 <img class="circle-img" width="40px" height="40px" src="images/web-design.png" alt="Web Design">
                                 </div>
                                 <h3 class="points-labels card-title">Web Design</h3>
                                 <pre class="mdash-line">&#8213; &#8213; &#8213;</pre>
-<<<<<<< HEAD
                                 <p class="desc-text">Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.</p>
                                 <button class="card-button card-button">Know More &nbsp; &#10132;</button>
                             </div>
-                            
-=======
-                                <p class="desc-text align-card-para">Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.</p>
-                                <button class="card-button card-button">Know More &nbsp; &#10132;</button>
-                            </div>
-
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
                             <div class="card" id="card2">
-                                <div class="small-circle white-border-circle">
+                                <div class="small-circle">
                                 <img class="circle-img" width="40px" height="40px" src="images/graphics-design-hover.png" alt="Graphics Design">
                                 </div>
                                 <h3 class="points-labels card-title white-text">Graphics Design</h3>
                                 <pre class="mdash-line white-text">&#8213; &#8213; &#8213;</pre>
-<<<<<<< HEAD
                                 <p class="desc-text white-text">Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.</p>
                                 <button class="card-button card-button2">Know More &nbsp; &#10132;</button>
                             </div>
-                            
-=======
-                                <p class="desc-text align-card-para white-text">Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.</p>
-                                <button class="card-button card-button2">Know More &nbsp; &#10132;</button>
-                            </div>
-
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
                             <div class="card" id="card3">
-                                <div class="small-circle green-border-circle">
+                                <div class="small-circle">
                                 <img class="circle-img" width="40px" height="40px" src="images/web-development.png" alt="Web Development">
                                 </div>
                                 <h3 class="points-labels card-title">Web Development</h3>
                                 <pre class="mdash-line">&#8213; &#8213; &#8213;</pre>
-<<<<<<< HEAD
                                 <p class="desc-text">Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.</p>            
-=======
-                                <p class="desc-text align-card-para">Lorem ipsum dolor sit amet,Stet clita kasd lorem ipsum dolor sit amet. sed diam eirmod tempor dolore.</p>            
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
                                 <button class="card-button">Know More &nbsp; &#10132;</button>
                             </div>
                         </div>
                     </div>
                </section>
              </div>
-<<<<<<< HEAD
-             
-             
-             <div>
+
+             <div id="section4">
                 <section class="skill-sec">
                     <h3 class="main-labels" id="skill-label-size">SKILL</h3>
-=======
-
-
-             <div>
-                <section class="skill-sec">
-                    <h3 class="main-labels">SKILL</h3>
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
                     <h3 class="points-labels">My Expertise</h3>
                     <div>
                         <div>
@@ -226,25 +158,18 @@
                 <aside class="portfolio-side-sec">
                      <h3 class="main-labels">PORTFOLIO</h3>
                     <h3 class="points-labels">My Work Examples</h3>
-                    <div>
+                    <div id="workex-container">
                         <div class="workex-pic">
-                            <img id="workex-img-spacing" src="images/image-2.png" alt="Work Example" width="311px" height="340px">
+                            <img id="workex-img-spacing" src="images/image-2.png" alt="Work Example" width="300px" height="340px">
                         </div>
                         <div class="workex-pic">
-                            <img src="images/image-3.png" alt="Work Example" width="311px" height="340px">
+                            <img src="images/image-3.png" alt="Work Example" width="300px" height="340px">
                         </div>
                     </div>
-                    <button class="hire-me-button" id="workex-button">View All></button>
+                    <button class="hire-me-button" id="workex-button">View All</button>
                 </aside>
              </div>
-<<<<<<< HEAD
-             
-=======
-
->>>>>>> 51a9ec62d6eb32690dbffcc3719a7ca0aa3586ba
-             <div id="copyright-divider" class="clear">  
-                <hr color="#00C878">   
-             </div>  
+ 
              <div id="footer-copyright" class="clear">
                 <p>All Rights Reserved</p>
              </div>
