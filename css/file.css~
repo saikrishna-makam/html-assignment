@@ -34,11 +34,12 @@ section.main-sec {
 #circle-container {
     margin-top: 80px;
     float: left;
-    padding: 30px;
+    padding: 30px 0px;
     width: 496px;
 }
 
 #cards {
+    clear: both;
     display: flex;
     justify-content: center;
 }
@@ -115,15 +116,28 @@ section.analysis-sec {
 .card-button {
   color: #FFFFFF;
   background-color: #0FBF61; 
-  width: 120px;
+  width: 130px;
   height: 32px;
   border: 0px;
   text-align: center;
-  margin-top: 14px;
-  padding-left: 10px;
-  text-decoration: none;
   font-size: 14px;
-  float: left;
+  position: relative;
+  display: inline-block;
+}
+
+.white-arrow-img {
+    margin-top: 3px;
+    margin-right: 5px;
+    width: 12px;
+    height: 10px;
+    float: right;
+}
+
+.black-arrow-img {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0; 
 }
 
 .card-button2 {
@@ -263,17 +277,22 @@ header {
     color: #000000;
 }
 
-.card:hover {
-    background-color: #0FBF61;
-    color: #FFFFF;
-}
 
 .small-circle {
    width: 70px;
    height: 70px;
-   border-radius: 50px;       
+   border: 2px solid #0FBF61;
+   border-radius: 50px;  
+   position: relative;
+   display: inline-block;     
 }
 
+.small-circle-hover {
+   width: 70px;
+   height: 70px;
+   border: 2px solid #FFFFFF;
+   border-radius: 50px;       
+}
 .green-border-circle {
    border: 2px solid #0FBF61;        
 }
@@ -283,14 +302,63 @@ header {
 }
 
 #workex-container {
-        padding: 0 auto;
-        margin-left: 20px;
+    padding: 0 auto;
+    margin-left: 30px;
     display: flex;
     justify-content: center;
 }
+
 .circle-img {
     margin-top: 15px;
     margin-left: 15px;
+}
+
+.card:hover .circle-img-hover {   
+    margin-top: 15px;
+    margin-left: 15px;
+    display: inline;
+}
+
+.circle-img-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;     
+}
+
+.card:hover > .small-circle { 
+    border: solid #FFFFFF;
+}
+
+.card:hover { 
+    background-color: #0FBF61;
+    color: #FFFFFF;
+}
+
+.card:hover > .card-title {
+    color: #FFFFFF;
+}
+
+.card:hover > .desc-text-hover {
+    color: #FFFFFF;
+}
+
+.card:hover > .mdash-line {
+    color: #FFFFFF;
+}
+
+.card:hover > .card-button {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.card:hover .black-arrow-img {
+    margin-top: 12px;
+    margin-left: 108px;
+    width: 12px;
+    height: 10px;
+    float: right;
+    display: inline;
 }
 
 .circle:hover {
@@ -303,6 +371,7 @@ header {
     padding: 100px;
     width: 30%;
     float: right;
+
 }
 
 .side-sec-padding {
@@ -389,8 +458,9 @@ textarea {
 }
 
 #section2 {
+    clear: both;
     height: 740px;
-    margin: 0 30px;
+    margin: 0px 30px;
     margin-bottom: 100px;
     border-bottom: 2px solid #00C878;
 }
@@ -418,8 +488,6 @@ textarea {
    padding-top: 100px;
 }
 
-#section3 {
-}
 
 .main-labels-padding {
     margin: 0 auto;
