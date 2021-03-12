@@ -29,7 +29,7 @@
                 </div>
              </header>
              <div>
-                <section class="main-sec clear">
+                <section class="main-sec">
                     <img id="portfolio-pic" src="images/image-1.png" alt="Wilkerson Hardin Picture" width="100%">
                 </section>
                 <aside class="side-sec">
@@ -174,17 +174,18 @@
                      <h3 class="main-labels">PORTFOLIO</h3>
                     <h3 class="points-labels">My Work Examples</h3>
                     <div id="workex-container">
-                        
+                        <div class="workex-pic">
                             <img id="workex-img-spacing" src="images/image-2.png" alt="Work Example" width="310px" height="340px">
-                        
+                        </div>
+                        <div class="workex-pic">
                             <img src="images/image-3.png" alt="Work Example" width="310px" height="340px">
-                        
+                        </div>
                     </div>
                     <button class="hire-me-button" id="workex-button">View All</button>
                 </aside>
              </div>
  
-             <div id="footer-copyright" class="clear">
+             <div id="footer-copyright">
                 <p>All Rights Reserved</p>
              </div>
          </div>    
