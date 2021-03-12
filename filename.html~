@@ -29,7 +29,7 @@
                 </div>
              </header>
              <div>
-                <section class="main-sec clear">
+                <section class="main-sec">
                     <img id="portfolio-pic" src="images/image-1.png" alt="Wilkerson Hardin Picture" width="100%">
                 </section>
                 <aside class="side-sec">
@@ -113,6 +113,7 @@
                                 <button class="card-button">
                                     <span>Know More</span>
                                     <img class="white-arrow-img" src="images/white-arrow.png">
+                                    <img class="black-arrow-img" src="images/black-arrow.png">
                                 </button>
                             </div>
                             <div class="card">
@@ -126,6 +127,7 @@
                                 <button class="card-button">
                                     <span>Know More</span>
                                     <img class="white-arrow-img" src="images/white-arrow.png">
+                                    <img class="black-arrow-img" src="images/black-arrow.png">
                                 </button>
                             </div>
                         </div>
@@ -183,7 +185,7 @@
                 </aside>
              </div>
  
-             <div id="footer-copyright" class="clear">
+             <div id="footer-copyright">
                 <p>All Rights Reserved</p>
              </div>
          </div>    
