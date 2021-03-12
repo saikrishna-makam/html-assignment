@@ -151,6 +151,10 @@ section.analysis-sec {
     height: 44px;
 }
 
+#wrapper {  
+    height: 80px;
+}
+
 header {
     width: 100%;
     height: 80px;
@@ -387,13 +391,17 @@ header {
 }
 
 #logo-img {
+    width: 160px;
+    height: 40px;
+}
+
+#logo-link {
     float: left;
     width: 160px;
     height: 40px;
     padding-left: 30px;
     padding-top: 22px;
 }
-
 
 nav a {
     width: auto;

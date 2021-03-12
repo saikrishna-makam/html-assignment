@@ -71,6 +71,7 @@ section.analysis-sec {
 }
 
 #workex-img-spacing {
+margin-top: 10px;
     margin-right: 10px;
 }
 
@@ -149,6 +150,10 @@ section.analysis-sec {
     margin-top: 100px;
     width: 638px;
     height: 44px;
+}
+
+#wrapper {  
+    height: 80px;
 }
 
 header {
@@ -387,13 +392,17 @@ header {
 }
 
 #logo-img {
+    width: 160px;
+    height: 40px;
+}
+
+#logo-link {
     float: left;
     width: 160px;
     height: 40px;
     padding-left: 30px;
     padding-top: 22px;
 }
-
 
 nav a {
     width: auto;
