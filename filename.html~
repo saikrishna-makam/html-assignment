@@ -1,8 +1,56 @@
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/file.css">
+        <title>Capital</title>
+    </head>
 
-</head>
-<body>
-
-</body>
+    <body>
+        <header>
+            <div id="header-container">
+                <a id="logo-link" href="#"><img id="logo" src="images/logo.png"></a>
+                <div id="header-right-sec">
+                    <small>info@weboxyzen.com | +1 523 +5689 652 | Contact Us</small>
+                    <nav>
+                        <ul id="header-list">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">BPO Industry</a></li>
+                            <li><a href="#">Clients</a></li>
+                            <li><a href="#">Case Study</a></li>
+                            <li><a href="#">Opportunities</a></li>
+                            <li><a href="#">Our Team</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        
+        <section id="first-section">
+            <h1 id="first-section-big-text">BIG FIRM</h1>
+            <h2 id="first-section-medium-text">CAPABILITY</h2>
+            <h3 id="first-section-small-text">Small firm personality</h3>
+        </section>
+        
+        <section id="second-section-left-sided">
+            <p>Many modern alternatives often incorporate humor or other content that actually detracts from the primary purpose of filler text: to be unobtrusive, yet provide the fell, look, and texture of filler text.</p>
+            <pre>Surprisingly, there is a very vocal faction of the design community that wants to see filler
+text banished to the original sources from whence it came. Perhaps not surprisingly, in an 
+era of endless quibbling, there is an equally vocal contingent of designers. The argument in 
+favor of using filler text goes something like this:
+            
+There is an equally vocal contingent of designers. If you use real content in the design 
+process, anytime you reach a review.</pre>
+        </section>
+        
+        <aside>
+        <div id="second-section-right-sided">
+            <img id="logo-symbol" src="images/logo_symbol.png">
+            <img id="lady-img" src="images/lady_01.png">
+        <div>
+        </aside>
+        
+    </body>
 </html>
