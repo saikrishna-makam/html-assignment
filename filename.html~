@@ -243,10 +243,13 @@ process, anytime you reach a review.</pre>
         </section>
         
         <section id="tenth-section">
-            <div id="tenth-section-container">
-                <div id="footer-list-col">
-                    <div class="change-bg1">
-                    </div>
+            <div class="section-grids" id="tenth-section-container">
+                <div class="change-bg1">
+                </div>
+                <div class="change-bg2">
+                </div>
+                
+                <div class="grid-item change-grid-margin" id="change-grid-width">
                     <nav>
                         <ul id="footer-list">
                             <li id="list-title">Finance & Accounting Outsourcing</li>
@@ -259,7 +262,7 @@ process, anytime you reach a review.</pre>
                         </ul>
                     </nav>
                 </div>
-                <div id="footer-list-col">
+                <div class="grid-item change-grid-margin" id="change-grid-width">
                     <nav>
                         <ul id="footer-list">
                             <li id="list-title">Business Advisory</li>
@@ -272,7 +275,7 @@ process, anytime you reach a review.</pre>
                         </ul>
                     </nav>
                 </div>
-                <div id="footer-list-col">
+                <div class="grid-item change-grid-margin" id="change-grid-width">
                     <nav>
                         <ul id="footer-list">
                             <li id="list-title">Compliance Advisory</li>
@@ -285,9 +288,7 @@ process, anytime you reach a review.</pre>
                         </ul>
                     </nav>
                 </div>
-                <div id="footer-list-col">
-                    <div class="change-bg2">
-                    </div>
+                <div class="grid-item change-grid-margin" id="change-grid-width">
                     <nav>
                         <ul id="footer-list">
                             <li id="list-title">Corporate Affairs</li>
