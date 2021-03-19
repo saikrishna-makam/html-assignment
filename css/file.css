@@ -555,6 +555,7 @@ nav a {
 
 #eighth-section {
     width: 1280px;
+    text-align: center;
     overflow-x: hidden;
 }
 
@@ -585,12 +586,10 @@ nav a {
 }
 
 #align-inputs {
-    display: table;
     margin: 50px auto;
 }
 
 #align-button {
-    display: table;
     margin: 60px auto;
     margin-bottom: 80px;
 }
@@ -606,6 +605,7 @@ nav a {
 .hr-line {
     width: 20px;
     height: 1px;
+    margin: 0px -4px 0px -2px;
     border-top: 1px solid #686868; 
     display: inline-block;
 }
@@ -719,7 +719,7 @@ nav a {
     left: 0%;
 }
 
-.tenth-section-layer {
+.tenth-section-grids {
     background-color: rgba(54, 54, 54, 1);
     color: #FFFFFF;
     text-align: center;
@@ -765,9 +765,4 @@ nav a {
 .social-media-icons {
     display: inline-block;
     margin: 5px;
-}
-
-#grids-container {
-    display: table;
-    margin: 0px auto;
 }
